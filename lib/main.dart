@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_assesment/ui%20logic/Screens/on%20boarding/onboarding.dart';
+import 'package:flutter_assesment/ui%20logic/Screens/splash%20screen/splash.screen.dart';
 import 'package:flutter_assesment/ui%20logic/common%20widgets/bottom.nav_bar.dart';
 import 'package:flutter_assesment/ui%20logic/home%20screen/home.dart';
 import 'package:flutter_assesment/ui%20logic/onboarding/signUp_screen.dart';
@@ -27,8 +29,10 @@ class MyApp extends StatelessWidget {
         routes: {
           '/BottomNavBar': (context)=> const BottomNavBar(),
          '/HomeScreen': (context) => const HomeScreen(),
+          '/SignUp': (context)=> const SignUp(),
+          '/OnBoardingScreens': (context)=> OnBoardingScreens(),
         },
-        home: const SignUp(),
+        home: const SplashScreen(),
       );
       }
     );

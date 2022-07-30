@@ -29,5 +29,14 @@ class Strings{
   static const String hText = 'Whats your email address?';
   static const String password = 'Create password';
   static const String hPassword = 'Create a password';
+  static const String skip = 'Skip';
+  static const String next = 'Next';
+  static const String getStarted = 'Get Started';
+  static const String onBoardingTitle3 = 'OnBoarding 3 Heading';
+  static const String onBoardingTitle2 = 'OnBoarding 2 Heading';
+  static const String onBoardingTitle1 = 'OnBoarding 1 Heading';
+  static const String onBoardingString3 = 'This is where the body goes';
+  static const String onBoardingString2 = 'This is where the body goes';
+  static const String onBoardingString1 = 'This is where the body goes';
 
 }

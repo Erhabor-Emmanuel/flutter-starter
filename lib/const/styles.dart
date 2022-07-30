@@ -17,6 +17,7 @@ const Color kLightYellow = Color(0xffFCF4E9);
 const Color kCreate = Color(0xff14121E);
 const Color kDetail = Color(0xff8F9BB3);
 const Color kFirst = Color(0xff222B45);
+const Color kSplashBackground = Color(0xffF4F6FB);
 
 
 
@@ -114,4 +115,31 @@ TextStyle kFirstN = GoogleFonts.inter(
     fontSize: 14.sp,
     color: kFirst,
     fontWeight: FontWeight.w500
+);
+
+TextStyle kOnboardingSkip = GoogleFonts.inter(
+    fontSize: 12.sp,
+    color: kBlack,
+    fontWeight: FontWeight.w500,
+    fontStyle: FontStyle.normal,
+);
+
+
+TextStyle kAuthButtonTextStyle = GoogleFonts.roboto(
+  fontStyle: FontStyle.normal,
+  fontSize: 14.sp,
+  fontWeight: FontWeight.w500,
+  color: kWhite,
+);
+
+ButtonStyle kAuth = TextButton.styleFrom(
+  primary: Colors.transparent,
+  fixedSize: const Size(353, 50),
+  backgroundColor: kBlack,
+  shape: const RoundedRectangleBorder(
+    // side: BorderSide(color: kBlackText, width: 2),
+    borderRadius: BorderRadius.all(
+      Radius.circular(5),
+    ),
+  ),
 );
