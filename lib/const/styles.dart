@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:pin_code_fields/pin_code_fields.dart';
 
 const Color kLightGreen = Color(0xffE0F3EF);
 const Color kSignup = Color(0xffECECEC);
@@ -142,4 +143,20 @@ ButtonStyle kAuth = TextButton.styleFrom(
       Radius.circular(5),
     ),
   ),
+);
+
+PinTheme kPinCodeStyle = PinTheme(
+  shape: PinCodeFieldShape.box,
+  borderWidth: 2.w,
+  borderRadius: BorderRadius.circular(5.r),
+  fieldHeight: 50.h,
+  fieldWidth: 50.w,
+  inactiveColor: kLightGreen,
+  activeColor: kLightGreen,
+  selectedColor: kLightGreen,
+);
+
+TextStyle kPinCodeTextStyle = GoogleFonts.roboto(
+  color: kWhite,
+  fontSize: 20.sp,
 );

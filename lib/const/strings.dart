@@ -38,5 +38,11 @@ class Strings{
   static const String onBoardingString3 = 'This is where the body goes';
   static const String onBoardingString2 = 'This is where the body goes';
   static const String onBoardingString1 = 'This is where the body goes';
+  static const String otp = 'OTP';
+  static const String resetCodeSub = 'Enter the 4 digit code sent to ';
+  static const String otpError = 'Enter Your 4 Digit Verification Code!';
+  static const String confirm2 = 'CONFIRM';
+  static const String noCode1 = 'Didn’t receive code? ';
+  static const String noCode2 = 'Request again';
 
 }
